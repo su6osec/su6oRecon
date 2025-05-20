@@ -1,0 +1,8 @@
+rich
+typer
+cryptography
+jinja2
+fpdf2
+requests
+aiohttp
+stem

@@ -99,5 +99,11 @@ cd su6oRecon
 # Make the install script executable
 chmod +x installer.py
 
+# Install Requirements
+pip install -r requirements.txt
+
 # Run the installer (use sudo if required)
-python3 ./install.sh
+python3 installer.py
+
+# Run Tool
+python3 su6oRecon.py

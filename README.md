@@ -97,7 +97,7 @@ git clone --depth 1 https://github.com/su6osec/su6oRecon.git
 cd su6oRecon
 
 # Make the install script executable
-chmod +x install.sh
+chmod +x installer.py
 
 # Run the installer (use sudo if required)
-sudo ./install.sh
+python3 ./install.sh

@@ -32,16 +32,18 @@ console = Console()
 
 def print_banner():
     banner = r"""
-  ____  _   _ ___  _   _  ____ ___  _  __
- / ___|| | | |_ _|| \ | |/ ___/ _ \| |/ /
- \___ \| |_| || | |  \| | |  | | | | ' / 
-  ___) |  _  || | | |\  | |__| |_| | . \ 
- |____/|_| |_||___||_| \_|\____\___/|_|\_\
+███████╗██╗   ██╗ ██████╗  ██████╗ ██████╗ ███████╗ ██████╗ ██████╗ ███╗   ██╗
+██╔════╝██║   ██║██╔════╝ ██╔═══██╗██╔══██╗██╔════╝██╔════╝██╔═══██╗████╗  ██║
+███████╗██║   ██║███████╗ ██║   ██║██████╔╝█████╗  ██║     ██║   ██║██╔██╗ ██║
+╚════██║██║   ██║██╔═══██╗██║   ██║██╔══██╗██╔══╝  ██║     ██║   ██║██║╚██╗██║
+███████║╚██████╔╝╚██████╔╝╚██████╔╝██║  ██║███████╗╚██████╗╚██████╔╝██║ ╚████║
+╚══════╝ ╚═════╝  ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝
+                                                                              
     """
     console.print(f"[bold cyan]{banner}[/bold cyan]")
-    console.print("[bold green]GitHub:[/bold green] https://github.com/yourusername")
+    console.print("[bold green]GitHub:[/bold green] https://github.com/su6osec")
     console.print(
-        "[bold green]LinkedIn:[/bold green] https://www.linkedin.com/in/yourprofile"
+        "[bold green]LinkedIn:[/bold green] https://www.linkedin.com/in/su6osec"
     )
     console.print()
 
